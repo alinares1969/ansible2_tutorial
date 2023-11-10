@@ -1,0 +1,164 @@
+    1  ip a
+    2  mntui
+    3  ip a
+    4  ssh 192.168.1.234
+    5  systemctl status sshd
+    6  yum install sshd
+    7  yum update
+    8  sudo apt install openssh-server
+    9  ssh 192.168.1.234
+   10  ip a
+   11  ssh 192.168.1.234
+   12  ssh 192.168.1.235
+   13  ssh 192.168.1.236
+   14  clear
+   15  pwd
+   16  ssh-keygen  -t ed25519 -C "al default"
+   17  ls -al
+   18  cd .ssh/
+   19  ls -al
+   20  cat known_hosts.old 
+   21  clear
+   22  cd /etc/
+   23  cd 
+   24  cd .ssh/
+   25  ls -al
+   26  cat known_hosts
+   27  clear
+   28  ssh 192.168.1.234
+   29  ssh 192.168.1.235
+   30  ssh 192.168.1.236
+   31  ls -al
+   32  rpm -qi openssh
+   33  sudo rpm -qi openssh
+   34  clear
+   35  ls -al
+   36  ssh 192.168.1.236
+   37  ls -al
+   38  rm id_*
+   39  ls -al
+   40  ssh-keygen  -t ed25519 -C "al default"
+   41  sudo apt openssh
+   42  sudo apt install openssh
+   43  ping 8.8.8.8
+   44  sudo apt install openssh-server
+   45  ssh 192.168.1.236
+   46  ls -al
+   47  rm id*
+   48  l s-al
+   49  ls -al
+   50  cat known_hosts
+   51  ls -al
+   52  rm know*
+   53  ls -al
+   54  ssh 192.168.1.234
+   55  ls
+   56  cat known_hosts
+   57  ssh 192.168.1.235
+   58  cat known_hosts
+   59  ssh 192.168.1.236
+   60  cat known_hosts
+   61  ls -al
+   62  cat known_hosts.old 
+   63  cat known_hosts
+   64  clear
+   65  cat known_hosts.old 
+   66  clear
+   67  cat known_hosts
+   68  ls -al
+   69  cd ..
+   70  ssh-keygen  -t ed25519 -C "al default"
+   71  ls -al
+   72  cd .ssh/
+   73  ls -al
+   74  cat  id_ed25519.pub 
+   75  cat  id_ed25519
+   76  clear
+   77  cd 
+   78  clear
+   79  ssh-copy-id  -i /home/andre/.ssh/id_ed25519.pub 192.168.1.234
+   80  ls -al
+   81  cd .ssh/
+   82  ls -al
+   83  ssh-copy-id  -i /home/andre/.ssh/id_ed25519.pub 192.168.1.235
+   84  ssh-copy-id  -i /home/andre/.ssh/id_ed25519.pub 192.168.1.236
+   85  ssh 192.168.1.234
+   86  ssh 192.168.1.235
+   87  ssh 192.168.1.236
+   88  ls .ssh
+   89  ls /.ssh
+   90  ssh-copy-id  -i /home/andre/.ssh/ansible.pub 192.168.1.234
+   91  cd ..
+   92  ssh-copy-id  -i /home/andre/.ssh/ansible.pub 192.168.1.235
+   93  ssh-copy-id  -i /home/andre/.ssh/ansible.pub 192.168.1.236
+   94  ssh -i ~/.ssh/ansible 192.168.1.236
+   95  ssh -i ~/.ssh/ansible 192.168.1.234
+   96  ssh -i ~/.ssh/ansible 192.168.1.235
+   97  ssh  192.168.1.234
+   98  ssh  192.168.1.235
+   99  ssh -i ~/.ssh/id_ed25519 192.168.1.234
+  100  eval $(ssh-agent)
+  101  ps aux | grep 4982
+  102  ssh-add
+  103  ssh  192.168.1.234
+  104  alias ssha='eval $(ssh-agent) && ssh-add'
+  105  ssha
+  106  vi .bashrc 
+  107  alias ssha
+  108  ssh 192.168.1.234
+  109  ssh 192.168.1.235
+  110  ssh 192.168.1.236
+  111  alias ssha
+  112  ssha
+  113  ssh 192.168.1.234
+  114  ssh 192.168.1.235
+  115  ssh 192.168.1.236
+  116  which git
+  117  sudo apt update
+  118  sudo apt install git
+  119  git
+  120  cat .ssh/id_ed25519.pub 
+  121  git clone git@github.com:alinares1969/ansible2_tutorial.git
+  122  ls -al
+  123  cd .ssh/
+  124  ls -al
+  125  cd ..
+  126  ls
+  127  ls -al
+  128  cd ansible2_tutorial/
+  129  ls -al
+  130  cat README.md 
+  131  git config --global user.name "Andre Linares"
+  132  git config --global user.email "andre_linares@hotmail.com"
+  133  cat  ~/.gitconfig 
+  134  ls -al
+  135  cd .git/
+  136  ls -al
+  137  cat config 
+  138  cd ..
+  139  vi README.md 
+  140  vim README.md 
+  141  sudo apt install vim
+  142  vim README.md 
+  143  cat README.md 
+  144  git status
+  145  git diff README.md
+  146  git add README.md 
+  147  git status
+  148  git commit -m "Updated readme file, initial commit"
+  149  git push origin master
+  150  git push main master
+  151  git push origin master
+  152  git commit -m "Updated readme file, initial commit"
+  153  git push
+  154  git push origin master
+  155  ls
+  156  vim README.md2
+  157  git add README.md2 
+  158  git status
+  159  git commit -m "added readme.2 file"
+  160  git status
+  161  git push 
+  162  history
+  163  cat history
+  164  history >> cmd_history.txt
